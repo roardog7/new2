@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+    background-color: black;
+}
+
+#we{
+
+    border-radius: 15px;
+    border: solid;
+    border-color: grey;
+    border-width: 6px;
+    width: 45%;
+}
+
+#wee{
+    margin-left: 12px;
+    border-radius: 15px;
+    border: solid;
+    border-color: grey;
+    border-width: 6px;
+    width: 45%;   
+
+}
