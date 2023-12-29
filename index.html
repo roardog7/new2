@@ -3,20 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SITRC</title>
-    <link rel="stylesheet" href="body.css">
+    <title>Fixed Position Example</title>
+    <style>
+        /* Apply some styles to create content and demonstrate scrolling */
+        body {
+            height: 150vh; /* Make the body taller than the viewport to enable scrolling */
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Style for the fixed position element */
+        .fixed-element {
+            position: fixed;
+            top: 20px; /* Adjust the top position as needed */
+            left: 20px; /* Adjust the left position as needed */
+            background-color: lightblue;
+            padding: 10px;
+            border: 1px solid blue;
+        }
+    </style>
 </head>
-
 <body>
-    <div >
-        <iframe width="100%" height="480px" src="https://www.watchisup.com/custom-timer/embed/gate-2024-2024-02-10-09-00?backgroundcolor=&color=" frameborder="0" allowfullscreen></iframe>
-        <video src="12.mp4" id="we" controls autoplay loop></video>
-        <video src="12.mp4" id="wee" controls autoplay loop></video>
-    </div>
-    <div>
-        <video src="12.mp4" id="we" muted autoplay loop></video>
-        <video src="12.mp4" id="wee" muted autoplay loop></video>
-    </div>    
-</body>
+    <!-- Content to demonstrate scrolling -->
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...</p>
 
+    <!-- Fixed position element -->
+    <div class="fixed-element">
+       <video src="12.mp4" loop autoplay></video>
+    </div>
+</body>
 </html>
